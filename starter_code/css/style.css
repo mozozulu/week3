@@ -1,0 +1,120 @@
+body{
+  font-family: lato, sans-serif;
+
+}
+
+header{
+  padding: 20px;
+  background-color: black;
+  border-bottom: #f8ff00 solid 3px;
+  color: white;
+
+}
+
+header h1{
+  color: #f8ff00;
+  font-family: georgia, serif;
+  margin: 0;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+  text-align: right;
+  font-family:lato, sans-serif;
+  font-size: 15px;
+
+}
+ li{
+   display: inline-block;
+   padding-right: 10px;
+ }
+
+ li:nth-child(-n+2){
+   text-transform: uppercase;
+   font-weight:bold;
+   font-family: oswald;
+ }
+
+summary{
+  background-color: #c6c6c6;
+  padding: 15px;
+  margin: 0;
+  font-family:georgia;
+  font-size: 18px;
+  font-weight:bold;
+  font-style: italic;
+  text-align:center;
+  letter-spacing: -0.5px;
+}
+
+s{
+  color: grey;
+}
+
+span{
+  border-bottom: #f8ff00 solid 2px;
+}
+
+.hero{
+  background: url(../images/coworking.jpg) no-repeat center;
+  background-size: cover;
+  height: 300px;
+
+}
+
+.description{
+  width:250px;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+  position:relative;
+  right:10px;
+
+}
+
+.description h2{
+  margin:0;
+}
+
+.description p{
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.description a{
+  background-color: #f8ff00;
+  padding: 10px 20px;
+  border-radius:2px;
+  font-family: oswald;
+  color: black;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+article{
+
+display: inline-block;
+width:33%;
+padding:10px;
+box-sizing: border-box;
+}
+
+article h3{
+font-family: georgia;
+}
+
+article a{
+  background-color: #c6c6c6;
+  padding: 10px 20px;
+  border-radius:2px;
+  font-family: oswald;
+  color: black;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+footer{
+  background-color: black;
+}
